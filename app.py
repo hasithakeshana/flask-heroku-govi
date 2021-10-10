@@ -352,15 +352,15 @@ def getMonthlyPricegraph():
 
 
 
-@app.route('/getGraphsTomatoPrice', methods=['POST'])
-def getMonthlyTomatoPrice(): 
+@app.route('/getGraphsCarrotPrice', methods=['POST'])
+def getMonthlyCarrotPrice(): 
 
-        months = [155, 90, 84, 112, 134, 147]
+        months = [160, 144, 185, 140, 152, 110]
 
         # convert to jsons
         return {
-        "vegetable-code" : "TY-Tomato",
-        "vegetable-name" : "tomato",
+        "vegetable-code" : "TY-Carrot",
+        "vegetable-name" : "carrot",
         "area" : "nuwaraeliya",
         "yield-output": months,
         "status-code": 200
