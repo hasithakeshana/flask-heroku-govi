@@ -21,7 +21,7 @@ def getBeans():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'beans-statistical.pkl'
+        file_name = 'beans.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
@@ -58,7 +58,7 @@ def getCarrot():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'carrot-statistical.pkl'
+        file_name = 'carrot.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
@@ -94,7 +94,7 @@ def getTomato():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'tomato-statistical.pkl'
+        file_name = 'tomato.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
@@ -130,7 +130,7 @@ def getCabbage():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'cabbage-statistical.pkl'
+        file_name = 'cabbage.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
@@ -166,7 +166,7 @@ def getPotato():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'potato-statistical.pkl'
+        file_name = 'potato.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
@@ -203,7 +203,7 @@ def getBeetroot():
         wind = data.get('wind', '');
 
         # pickle file name
-        file_name = 'beetroot-statistical.pkl'
+        file_name = 'beet.pkl'
 
         # load the pickle file 
         loaded_model = pickle.load(open(file_name,'rb'));
